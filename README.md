@@ -14,6 +14,8 @@ Requires Node.js 20.9 or newer. Use npm.cmd on PowerShell if npm script executio
 
 Open /en or /ur. The four routes are home, /services, /about, and /contact beneath each locale.
 
+To save changes in Git, run `git add .` before `git commit -m "your message"`.
+
 ## Structure
 
 - src/app/[locale]/layout.tsx: shared navigation/footer, locale direction, and organization metadata.
